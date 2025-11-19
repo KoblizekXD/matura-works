@@ -1,0 +1,60 @@
+name: Generate Typst Outputs
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git user
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Switch to orphan branch
+        run: |
+          git switch generated
+
+      - uses: typst-community/setup-typst@v4.3.0
+
+      - name: Compile all .typ files from main branch
+        run: |
+          git fetch origin main
+          mkdir source
+          git --work-tree=source checkout origin/main -- .
+
+          cd source
+          find . -name "*.typ" | while read file; do
+            echo "Compiling $file"
+
+            clean="${file#./}"
+
+            flat="$(echo "$clean" | tr '/' '-')"
+
+            # Change extension to .pdf
+            outfile="../${flat%.typ}.pdf"
+
+            # Compile to the flattened PDF name at root of orphan branch
+            typst compile --root=. "$file" "$outfile"
+          done
+          cd ..
+          rm -rf source
+
+      - name: Commit results
+        run: |
+          git add .
+          git commit -m "Generated Typst outputs (orphan branch)"
+
+      - name: Force push orphan branch (overwrites remote)
+        run: |
+          git push --force origin generated
