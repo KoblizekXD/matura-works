@@ -1,0 +1,7 @@
+*.pdf
+.vscode
+.idea
+.log
+.DS_Store
+*.aux
+*.bbl
