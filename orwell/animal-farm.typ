@@ -1,4 +1,4 @@
-#import "../template.typ" : work;
+#import "../template.typ": work;
 
 #work(
   title: "Farma zvířat",
@@ -17,20 +17,41 @@
   ],
   plot-and-motifs: [
     ==== Děj
-    Na Panské farmě proběhne revoluce zvířat. Vyženou lidi a začnou pracovat sami pro sebe. Sepíší sedm pravidel, které nemají být porušena. Vlády se ujmou dvě prasata -- Kuliš a Napoleon, která se neustále hádají. Nakonec je Kuliš vyhnán Napoleonem. Od té doby se vše točí jen ve prospěch prasat.
+    Opilý farmář Jones zapomene zavřít zvířata na farmě, ty se sejdou a prase *Major* ukáže svoji ideologie. Na Panské farmě proběhne revoluce zvířat. Jones následně zemře, zvířata vyženou lidi a začnou pracovat sami pro sebe. Sepíší sedm pravidel, které nemají být porušena. Vlády se ujmou dvě prasata -- Kuliš a Napoleon, která se neustále hádají. Nakonec je Kuliš vyhnán Napoleonem. Od té doby se vše točí jen ve prospěch prasat.
     Zvířata mají postavit větrný mlýn. Jsou hladová. Mlýn spadne a Napoleon to svede na Kuliše. Zvířata staví mlýn znovu, ale ten jim tentokrát rozboří lidé. A tak jej začínají budovat opět od začátku.
     Napoleon začne obchodovat s lidmi. Prasata se setkají s okolními farmáři a hrají s nimi poker a najednou není poznat, kdo je člověk a kdo prase, protože prasata se pomalu začínají měnit na lidi...
 
+    ==== Pravidla farmy
+
+    - Každý, kdo chodí po dvou nohách, je nepřítel
+    - Každý, kdo chodí po čtyřech nohách nebo má křídla, je přítel
+    - Žádné zvíře nebude chodit oblečené
+    - Žádné zvíře nebude spát v posteli
+    - Žádné zvíře nebude pít alkohol
+    - Žádné zvíře nezabije jiné zvíře
+    - Všechna zvířata jsou si rovna
+
     ==== Postavy
 
-    - *Napoleon* -- prase, nejchytřejší, ale podvodník a pokrytec
-    - *Kuliš* -- chytré prase s dobrými nápady, je čestný
+    - *Napoleon* -- prase, nejchytřejší, ale podvodník a pokrytec -- a.k.a. Stalin
+    - *Kuliš* -- chytré prase s dobrými nápady, je čestný -- a.k.a. Trockij (původní iniciátor velké říjnové revoluce)
     - *Pan Jones* -- původní majitel farmy, alkoholik
     - *Boxer* -- kůň, pracovitý, čestný, největší dříč
-    - *Pištík* -- prase, lhář, nepřítel Napoleona
-    - *Major* -- inteligentní kanec
+    - *Pištík* -- prase, lhář, dobrý přítel Napoleona, dokáže manipulovat s ostatními zvířaty
+    - *Major* -- inteligentní kanec -- a.k.a. Lenin
     - *Molina* -- klisna, “madam” mezi zvířaty, ráda se parádi s mašlemi
 
+    ==== Další informace o ději a motivech
+
+    - Alegorie na ruskou revoluci a vznik Sovětského svazu
+    - Napoleon představuje Stalina, vyhání a hází vinu na Kuliše (Trockého), což odpovídá Stalinovu vyhnání Trockého ze Sovětského svazu
+    - Zvířata reprezentují různé sociální třídy a politické postavy té doby
+    - Prasata začnou postupně přijímat lidské vlastnosti, což symbolizuje zkorumpování revolučních ideálů
+    - Prasata prodají Boxera, který je symbolem pracující třídy, do jatka, což ukazuje zradu revolučních ideálů vůči těm, kteří je podporovali
+
+    #quote(attribution: "George Orwell", block: true, [
+      _Všechna prasata jsou si rovna, ale některá jsou si rovnější než ostatní._
+    ])
   ],
   additional-info: [
     Tvořil literaturu 20. století s prvky sci-fi a vizí totalitní společnosti.
@@ -63,7 +84,7 @@
 
     ==== Další významná díla
 
-    - *Farma zvířat* -- politická bajka kritizující sovětskou totalitu
+    - *1984* -- dystopický román zobrazující totalitní režim a jeho dopady na jednotlivce
     - *Barmské dny* -- román reflektující Orwellovu zkušenost s britským kolonialismem
     - *Farářova dcera* -- sociálně laděný román o lidských osudech a nespravedlnosti
 
