@@ -1,5 +1,42 @@
 #import "../template.typ": work;
 
+#let author = [
+  George Orwell (1903 -- 1952), britský novinář, esejista a jeden z nejvýznamnějších spisovatelů 20. století.
+
+  ==== Život
+
+  George Orwell se narodil roku 1903 v Indii, kde jeho otec pracoval ve státní správě. V raném dětství se spolu s matkou přestěhoval do Anglie, kde také vyrůstal a studoval. Později působil jako policista v Barmě, což ho silně ovlivnilo -- zejména jeho vnímání kolonialismu a nespravedlnosti.
+
+  Roku 1936 odjel jako dobrovolník bojovat do španělské občanské války na straně republikánů. Zkušenosti z války i z pozdějšího života formovaly jeho silně kritické postoje vůči totalitním režimům.
+
+  Ač byl často spojován s kritikou komunismu, sám se označoval spíše za socialistu, který však ostře vystupoval proti jakýmkoliv formám diktatury.
+
+  ==== Tvorba a témata
+
+  Orwellovy knihy nejsou jen politickými alegoriemi -- odráží také každodenní život jeho doby, sociální nerovnosti, chudobu, manipulaci, propagandu a mocenské mechanismy.
+
+  Velkou inspirací mu byl ruský spisovatel *Jevgenij Zamjatin*, autor románu *My*, díky němuž si Orwell uvědomil povahu totalitních poměrů v Sovětském svazu. To se promítlo zejména do jeho alegorické novely Farma zvířat, kde skrytě popisuje mechanismy moci a zrady ideálů.
+
+  V období komunistického režimu byly jeho knihy v ČSSR zakázány a vycházely pouze v zahraničních (exilových) nakladatelstvích.
+
+  ==== Další významná díla
+
+  - *1984* -- dystopický román zobrazující totalitní režim a jeho dopady na jednotlivce
+  - *Barmské dny* -- román reflektující Orwellovu zkušenost s britským kolonialismem
+  - *Farářova dcera* -- sociálně laděný román o lidských osudech a nespravedlnosti
+
+  ==== Současníci
+
+  - *Karel Čapek* -- Bílá nemoc, R.U.R., Matka
+
+  - *Isaac Asimov* -- Já, robot
+
+  - *Ludvík Souček* -- Cesta slepých ptáků
+
+  - *Arthur C. Clarke* -- Vesmírná odysea
+]
+
+
 #work(
   title: "Farma zvířat",
   author: "George Orwell",
@@ -47,7 +84,7 @@
     - Napoleon představuje Stalina, vyhání a hází vinu na Kuliše (Trockého), což odpovídá Stalinovu vyhnání Trockého ze Sovětského svazu
     - Zvířata reprezentují různé sociální třídy a politické postavy té doby
     - Prasata začnou postupně přijímat lidské vlastnosti, což symbolizuje zkorumpování revolučních ideálů
-    - Prasata prodají Boxera, který je symbolem pracující třídy, do jatka, což ukazuje zradu revolučních ideálů vůči těm, kteří je podporovali
+    - Prasata prodají Boxera, který je symbolem pracující třídy, na jatka, což ukazuje zradu revolučních ideálů vůči těm, kteří je podporovali
 
     #quote(attribution: "George Orwell", block: true, [
       _Všechna prasata jsou si rovna, ale některá jsou si rovnější než ostatní._
@@ -63,40 +100,5 @@
     - Utopie (ideální svět) a antiutopie (a.k.a. dystopie, vše je ve světě špatně)
 
   ],
-  about-author: [
-    George Orwell -- Britský novinář, esejista a jeden z nejvýznamnějších spisovatelů 20. století.
-
-    ==== Život
-
-    George Orwell se narodil roku 1903 v Indii, kde jeho otec pracoval ve státní správě. V raném dětství se spolu s matkou přestěhoval do Anglie, kde také vyrůstal a studoval. Později působil jako policista v Barmě, což ho silně ovlivnilo -- zejména jeho vnímání kolonialismu a nespravedlnosti.
-
-    Roku 1936 odjel jako dobrovolník bojovat do španělské občanské války na straně republikánů. Zkušenosti z války i z pozdějšího života formovaly jeho silně kritické postoje vůči totalitním režimům.
-
-    Ač byl často spojován s kritikou komunismu, sám se označoval spíše za socialistu, který však ostře vystupoval proti jakýmkoliv formám diktatury.
-
-    ==== Tvorba a témata
-
-    Orwellovy knihy nejsou jen politickými alegoriemi -- odráží také každodenní život jeho doby, sociální nerovnosti, chudobu, manipulaci, propagandu a mocenské mechanismy.
-
-    Velkou inspirací mu byl ruský spisovatel *Jevgenij Zamjatin*, autor románu *My*, díky němuž si Orwell uvědomil povahu totalitních poměrů v Sovětském svazu. To se promítlo zejména do jeho alegorické novely Farma zvířat, kde skrytě popisuje mechanismy moci a zrady ideálů.
-
-    V období komunistického režimu byly jeho knihy v ČSSR zakázány a vycházely pouze v zahraničních (exilových) nakladatelstvích.
-
-    ==== Další významná díla
-
-    - *1984* -- dystopický román zobrazující totalitní režim a jeho dopady na jednotlivce
-    - *Barmské dny* -- román reflektující Orwellovu zkušenost s britským kolonialismem
-    - *Farářova dcera* -- sociálně laděný román o lidských osudech a nespravedlnosti
-
-    ==== Současníci
-
-    - *Karel Čapek* -- Bílá nemoc, R.U.R., Matka
-
-    - *Isaac Asimov* -- Já, robot
-
-    - *Ludvík Souček* -- Cesta slepých ptáků
-
-    - *Arthur C. Clarke* -- Vesmírná odysea
-
-  ],
+  about-author: author,
 )
